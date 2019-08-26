@@ -140,5 +140,7 @@ CMD_HELP.update({
 \nUsage: As if text spam was not enough !!\
 \n\n.delayspam <delay> <count> <text>\
 \nUsage: .bigspam but slower.\
+\n\n.gangsta\
+\nUsage: Gives you Gengster Feeling, btw Spyder is real Gangsta.\
 \n\n\nNOTE : I am not responsible if you get banned for spamming!"
 })
