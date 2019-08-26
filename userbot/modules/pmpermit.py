@@ -70,8 +70,8 @@ async def permitpm(event):
 
                 if COUNT_PM[event.chat_id] > 4:
                     await event.respond(
-                        "`You were spamming my PM, which I didn't like.`\n"
-                        "`You have been BLOCKED and reported as SPAM, until further notice.`"
+                        "`You were spamming my peru master's Inox.`\n"
+                        "`You chuu nubfuk been BLOCKED and reported as SPAM, now GTFO.`"
                     )
 
                     try:
@@ -184,11 +184,11 @@ async def approvepm(apprvpm):
         try:
             approve(uid)
         except IntegrityError:
-            await apprvpm.edit("`User may already be approved.`")
+            await apprvpm.edit("`This boi may already be approved.`")
             return
 
         await apprvpm.edit(
-            f"[{name0}](tg://user?id={uid}) `approved to PM!`"
+            f"[{name0}](tg://user?id={uid}) ` bsdka approved to PM!`"
         )
 
         async for message in apprvpm.client.iter_messages(apprvpm.chat_id, 
@@ -226,7 +226,7 @@ async def disapprovepm(disapprvpm):
             name0 = str(aname.first_name)
 
         await disapprvpm.edit(
-            f"[{name0}](tg://user?id={disapprvpm.chat_id}) `Disaproved to PM!`"
+            f"[{name0}](tg://user?id={disapprvpm.chat_id}) `nubfuk disapproved to PM!`"
             )
 
         if BOTLOG:
@@ -242,7 +242,7 @@ async def blockpm(block):
     """ For .block command, block people from PMing you! """
     if not block.text[0].isalpha() and block.text[0] not in ("/", "#", "@", "!"):
 
-        await block.edit("`You've been blocked!`")
+        await block.edit("`You've been blocked!. Now cry in corner`")
 
         if block.reply_to_msg_id:
             reply = await block.get_reply_message()
@@ -277,7 +277,7 @@ async def unblockpm(unblock):
     if not unblock.text[0].isalpha() and unblock.text[0] \
             not in ("/", "#", "@", "!") and unblock.reply_to_msg_id:
 
-        await unblock.edit("`You have been unblocked.`")
+        await unblock.edit("`You have been unblocked.OK RETARD`")
 
         if unblock.reply_to_msg_id:
             reply = await unblock.get_reply_message()
