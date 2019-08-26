@@ -1,10 +1,10 @@
 # UserBot
 
-### installing
+### Installing
 
-#### The easiest way to deploy this bad boy !!
+#### The easiest way to deploy this lit bad boy !!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shivamkchoudhary/UserBot/tree/sql-extended)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/spyderzz/UserBot/tree/sql-extended)
 
 ### If the CI builds pass, but you still get syntax errors when running locally it's most probably not a problem with the source but with your version of python
 
@@ -38,7 +38,7 @@ For setting up and configuring this userbot, you can checkout the [Wiki](https:/
 If you just want to stay in the loop about new features or
 announcements you can join the [news channel](https://t.me/PaperplaneExtended).
 
-If you find any bugs or have any suggestions then don't hesitate to [contact me](https://t.me/shivamkchoudhary).
+If you find any bugs or have any suggestions then don't hesitate to [contact me](https://t.me/spyderzzz).
 
 Please head to the wiki on instructions to setting it up!
 
