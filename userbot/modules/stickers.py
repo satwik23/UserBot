@@ -263,7 +263,7 @@ async def get_pack_info(event):
             return
         stickerset_attr = rep_msg.document.attributes[1]
         if not isinstance(stickerset_attr, DocumentAttributeSticker):
-            await event.edit("`This is not a sticker. Reply to a sticker.`")
+            await event.edit("`Sticker pr reply krna, kahi pr bhi krdeta lulz.`")
             return
         get_stickerset = await bot(GetStickerSetRequest(InputStickerSetID(id=stickerset_attr.stickerset.id, access_hash=stickerset_attr.stickerset.access_hash)))
         pack_emojis = []
