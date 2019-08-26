@@ -1175,6 +1175,8 @@ async def typewriter(typew):
 CMD_HELP.update({
     "memes": ".cowsay\
 \nUsage: cow which says things.\
+\n\n.milksay\
+\nUsage: Weird Milk that can speak\
 \n\n:/\
 \nUsage: Check yourself ;)\
 \n\n-_-\
@@ -1197,6 +1199,8 @@ CMD_HELP.update({
 \nUsage: kensar moon animation.\
 \n\n.clock\
 \nUsage: kensar clock animation.\
+\n\n.earth\
+\nUsage: kensar earth animation.\
 \n\n.hi\
 \nUsage: Greet everyone!\
 \n\n.coinflip <heads/tails>\
