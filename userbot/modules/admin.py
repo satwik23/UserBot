@@ -138,7 +138,7 @@ async def promote(promt):
             pin_messages=True
         )
 
-        await promt.edit("`Promoting...`")
+        await promt.edit("`Promoting this gey...`")
 
         user = await get_user_from_event(promt)
         if user:
@@ -155,7 +155,7 @@ async def promote(promt):
                     new_rights
                 )
             )
-            await promt.edit("`Promoted Successfully!`")
+            await promt.edit("`Promoted Successfully!.Ab party de!`")
 
         # If Telethon spit BadRequestError, assume
         # we don't have Promote permission
@@ -219,7 +219,7 @@ async def demote(dmod):
         except BadRequestError:
             await dmod.edit(NO_PERM)
             return
-        await dmod.edit("`Demoted Successfully!`")
+        await dmod.edit("`Demoted Successfully! Nikal Lawde`")
 
         # Announce to the logging group if we have demoted successfully
         if BOTLOG:
@@ -253,7 +253,7 @@ async def ban(bon):
 
 
         # Announce that we're going to whack the pest
-        await bon.edit("`Whacking the pest!`")
+        await bon.edit("`Finding this retarded guy...`")
 
         try:
             await bon.client(
@@ -307,7 +307,7 @@ async def nothanos(unbon):
             return
 
         # If everything goes well...
-        await unbon.edit("`Unbanning...`")
+        await unbon.edit("`My boss forgives everyone. Unbanned!`")
 
         user = await get_user_from_event(unbon)
         if user:
@@ -593,7 +593,7 @@ async def rm_deletedacc(show):
             return
 
         if con != "clean":
-            await show.edit("`Searching for zombie accounts...`")
+            await show.edit("`Searching for ded af accounts...`")
             async for user in show.client.iter_participants(
                     show.chat_id
             ):
@@ -749,7 +749,7 @@ async def kick(usr):
             return
 
 
-        await usr.edit("`Kicking...`")
+        await usr.edit("`Kicking this chuu...`")
 
         try:
             await usr.client(
