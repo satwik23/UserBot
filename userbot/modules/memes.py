@@ -546,7 +546,6 @@ ITEMS = [
     "five ton truck",
     "roll of duct tape",
     "book",
-    "lawda",
     "laptop",
     "old television",
     "sack of rocks",
@@ -564,7 +563,6 @@ ITEMS = [
 
 THROW = [
     "throws",
-    "lawda",
     "flings",
     "chucks",
     "hurls",
