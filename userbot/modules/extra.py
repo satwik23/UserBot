@@ -13,7 +13,7 @@ from userbot.events import register
 @register(outgoing=True, pattern="^.leave$")
 async def leave(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("`I iz Leaving dis Group kek!`")
+        await e.edit("`I iz Leaving dis Kensur Group kek!`")
         time.sleep(3)
         if '-' in str(e.chat_id):
             await bot(LeaveChannelRequest(e.chat_id))
@@ -68,12 +68,12 @@ async def _(event):
 @register(outgoing=True, pattern="^.source$")
 async def source(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("https://github.com/shivamkchoudhary/Userbot/")
+        await e.edit("https://github.com/Spyderzz/Userbot/")
 
 @register(outgoing=True, pattern="^.readme$")
 async def reedme(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("https://github.com/shivamkchoudhary/UserBot/blob/master/README.md")
+        await e.edit("https://github.com/Spyderzz/UserBot/blob/master/README.md")
 
 
 @register(outgoing=True, pattern="^.clock$")
