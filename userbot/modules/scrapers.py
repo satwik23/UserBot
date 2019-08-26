@@ -59,7 +59,7 @@ async def carbon_api(e):
    elif textx:
          pcode = str(textx.message) # Importing message to module
    code = quote_plus(pcode) # Converting to urlencoded
-   await e.edit("`Processing..\n25%`")
+   await e.edit("`Meking Carbon...\n25%`")
    url = CARBON.format(code=code, lang=CARBONLANG)
    chrome_options = Options()
    chrome_options.add_argument("--headless")
@@ -72,7 +72,7 @@ async def carbon_api(e):
    chrome_options.add_experimental_option('prefs', prefs)
    driver = webdriver.Chrome(executable_path=CHROME_DRIVER, options=chrome_options)
    driver.get(url)
-   await e.edit("`Processing..\n50%`")
+   await e.edit("`Be Patient...\n50%`")
    download_path = './'
    driver.command_executor._commands["send_command"] = ("POST", '/session/$sessionId/chromium/send_command')
    params = {'cmd': 'Page.setDownloadBehavior', 'params': {'behavior': 'allow', 'downloadPath': download_path}}
@@ -83,13 +83,13 @@ async def carbon_api(e):
    await e.edit("`Processing..\n75%`")
    # Waiting for downloading
    sleep(2.5)
-   await e.edit("`Processing..\n100%`")
+   await e.edit("`Bss hogya...\n100%`")
    file = './carbon.png'
    await e.edit("`Uploading..`")
    await e.client.send_file(
          e.chat_id,
          file,
-         caption="[Spyder](https://t.me/psyfucx/) Iz Gawd + peru af.",
+         caption="[Spyder](https://t.me/spyderzzz/) Iz Gawd + peru af.",
          force_document=True,
          reply_to=e.message.reply_to_msg_id,
          )
