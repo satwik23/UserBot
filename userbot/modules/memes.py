@@ -1231,5 +1231,11 @@ CMD_HELP.update({
 \nUsage: Let me Google that for you real quick !!\
 \n\n.decide\
 \nUsage: Make a quick decision.\
+\n\n.abusehard\
+\nUsage: You already got that! Ain't?.\
+\n\n.pro\
+\nUsage: If you think you're pro, try this.\
+\n\n.abuse\
+\nUsage: Protects you from unwanted peeps.\
 \n\n\nThanks to 🅱️ottom🅱️ext🅱️ot (@NotAMemeBot) for some of these."
 })
