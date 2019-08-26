@@ -402,6 +402,7 @@ PRO_STRINGS = [
      "`Proness Lebel: 6969696969`",
      "`Itna pro banda dekhlia bc, ab to marna hoga.`",
      "`U iz pro but i iz ur DAD, KeK`",
+     "`What are you Bsdk? Human or Gawd(+_+)`",
      "`Aye pro,ek baat yaad rakhna, Agar Bharosa khud par ho to ksi ki chut tumhari kamzori nahi bnskti.`",
 ]
 ABUSEHARD_STRING = [
