@@ -35,7 +35,7 @@ AFKSTR = [
         "I went that way\n---->",
         "I went this way\n<----",
         "Please leave a message and make me feel even more important than I already am.",
-        "I am not here so stop writing to me,\nor else you will find yourself with a screen full of your own messages.",
+        "I am not here so stop writing to me,\nor else you will find yurself with a screen full of your own messages.",
         "If I were here, I'd tell you where I am. But I'm not, so ask me when I return...",
         "I am away! I don't know when I'll be back! Hopefully a few minutes from now!",
         "I'm not available right now so please leave your name, number, and address and I will stalk you later.",
@@ -58,7 +58,7 @@ async def mention_afk(mention):
             if mention.sender_id not in USERS:
                 if AFKREASON:
                     await mention.reply(
-                        f"Sorry! I am AFK because of `{AFKREASON}`. I'll have a look at this as soon as I come back."
+                        f"Aye, mera boss busy hai coz `{AFKREASON}`. Me usko btadunga tab tak chup reh."
                     )
                 else:
                     await mention.reply(
@@ -70,7 +70,7 @@ async def mention_afk(mention):
                 if USERS[mention.sender_id] % 2 == 0:
                     if AFKREASON:
                         await mention.reply(
-                            f"Sorry! But I'm still not back yet. Currently busy with `{AFKREASON}`."
+                            f"Thoda jayda busy hai wo. Currently busy with `{AFKREASON}`."
                         )
                     else:
                         await mention.reply(
@@ -153,7 +153,7 @@ async def type_afk_is_not_true(notafk):
     AFKREASON = gvarstatus("AFK_REASON")
     if ISAFK:
         delgvar("AFK_STATUS")
-        await notafk.respond("I'm no longer AFK.")
+        await notafk.respond("Mera Boss agya. YaY !")
         delgvar("AFK_REASON")
         afk_info = await notafk.respond(
             "`You recieved " +
